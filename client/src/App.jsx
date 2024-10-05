@@ -1,5 +1,7 @@
 import "./App.css";
 import Home from "./Home Page/Home";
+import Card from "./Home Page/Card";
+import HomeNav from "./Home Page/HomeNav"
 
 function App() {
   return (
@@ -9,6 +11,7 @@ function App() {
         Hello World!
       </h1> */}
       <Home />
+      <HomeNav />
     </>
   );
 }
